@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:missin_app/widgets/drawer_widget.dart';
 import 'package:missin_app/widgets/tasks_widget.dart';
 
 class TasksScreen extends StatelessWidget {
@@ -16,7 +17,7 @@ class TasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(),
+      drawer: DrawerWidget(),
       appBar: AppBar(
         leading: Builder(
           builder: (context) {
